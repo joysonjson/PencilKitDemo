@@ -12,6 +12,8 @@ import PencilKit
 class ViewController: UIViewController {
     
     let canvasView = PKCanvasView(frame: .zero)
+    // creating some conflicts in dev
+    let item:String = "dev branch"
     
     override func viewDidLoad() {
         super.viewDidLoad()
