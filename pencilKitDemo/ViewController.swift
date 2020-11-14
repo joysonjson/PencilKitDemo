@@ -12,7 +12,8 @@ import PencilKit
 class ViewController: UIViewController {
     
     let canvasView = PKCanvasView(frame: .zero)
-    
+    // creating confilit in joyson branch
+    let msg = "Joyson"
     override func viewDidLoad() {
         super.viewDidLoad()
         setNavigationBar()
